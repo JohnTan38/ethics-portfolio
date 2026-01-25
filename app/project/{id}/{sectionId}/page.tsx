@@ -18,7 +18,7 @@ export function generateStaticParams() {
 export default function SectionPage({ 
   params 
 }: { 
-  params: Promise<{ id: string; sectionId: string }> 
+  params: { id: string; sectionId: string } 
 }) {
   return <SectionPageClient params={params} />
 }

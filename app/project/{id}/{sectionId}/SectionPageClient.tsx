@@ -1,6 +1,6 @@
 'use client'
 
-import { use, useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { Download, Search, Menu, X, ChevronRight, Home, ArrowLeft } from 'lucide-react'
 import project1Data from '@/lib/data/project1'
@@ -8,14 +8,13 @@ import project1Data from '@/lib/data/project1'
 export default function SectionPageClient({ 
   params 
 }: { 
-  params: Promise<{ id: string; sectionId: string }> 
+  params: { id: string; sectionId: string } 
 }) {
-  const resolvedParams = use(params)
   const [searchQuery, setSearchQuery] = useState('')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [activeSubsection, setActiveSubsection] = useState(0)
 
-  const section = project1Data.sections.find(s => s.id === resolvedParams.sectionId)
+  const section = project1Data.sections.find(s => s.id === params.sectionId)
   
   if (!section) {
     return (
