@@ -15,10 +15,11 @@ export function generateStaticParams() {
   return params
 }
 
-export default function SectionPage({ 
+export default async function SectionPage({ 
   params 
 }: { 
-  params: { id: string; sectionId: string } 
+  params: Promise<{ id: string; sectionId: string }> 
 }) {
-  return <SectionPageClient params={params} />
+  const resolvedParams = await params
+  return <SectionPageClient params={resolvedParams} />
 }
