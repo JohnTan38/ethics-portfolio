@@ -1,6 +1,8 @@
 import project1Data from '@/lib/data/project1'
 import SectionPageClient from './SectionPageClient'
 
+export const dynamic = 'force-dynamic'
+
 // Generate static params for all sections at build time
 export function generateStaticParams() {
   const params: { id: string; sectionId: string }[] = []
