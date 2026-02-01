@@ -29,6 +29,14 @@ export default function SectionPageClient({
     )
   }
 
+  const theme = section.theme ?? {
+    divider: 'from-blue-500 to-purple-500',
+    sidebarActive: 'bg-blue-100 text-blue-700',
+    button: 'bg-blue-600 text-white hover:bg-blue-700',
+    ring: 'focus:ring-blue-500'
+  }
+
+  const pdfPath = section.pdfPath ?? project1Data.pdfPath ?? '/Ethical_issues_and_Legislative_breaches.pdf'
   const currentSubsection = section.subsections[activeSubsection]
 
   return (
@@ -59,13 +67,13 @@ export default function SectionPageClient({
                   placeholder="Search content..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className={`pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 ${theme.ring} focus:border-transparent`}
                 />
               </div>
               <a
-                href="/Ethical_issues_and_Legislative_breaches.pdf"
+                href={pdfPath}
                 download
-                className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${theme.button}`}
               >
                 <Download className="w-4 h-4" />
                 <span className="hidden sm:inline">PDF</span>
@@ -98,7 +106,7 @@ export default function SectionPageClient({
                   className={`
                     w-full text-left px-4 py-3 rounded-lg transition-colors
                     ${activeSubsection === index 
-                      ? 'bg-blue-100 text-blue-700 font-semibold' 
+                      ? `${theme.sidebarActive} font-semibold` 
                       : 'hover:bg-gray-100 text-gray-700'
                     }
                   `}
@@ -136,7 +144,7 @@ export default function SectionPageClient({
               {currentSubsection.title}
             </h1>
             
-            <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mb-8" />
+            <div className={`h-1 w-24 bg-gradient-to-r ${theme.divider} rounded-full mb-8`} />
 
             <div 
               className="content-section max-w-none"
@@ -179,7 +187,7 @@ export default function SectionPageClient({
               <button
                 onClick={() => setActiveSubsection(Math.min(section.subsections.length - 1, activeSubsection + 1))}
                 disabled={activeSubsection === section.subsections.length - 1}
-                className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className={`flex items-center gap-2 px-6 py-3 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors ${theme.button}`}
               >
                 Next
                 <ChevronRight className="w-5 h-5" />
