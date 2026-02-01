@@ -38,6 +38,7 @@ export default function SectionPageClient({
 
   const pdfPath = section.pdfPath ?? project1Data.pdfPath ?? '/Ethical_issues_and_Legislative_breaches.pdf'
   const currentSubsection = section.subsections[activeSubsection]
+  const references = 'references' in currentSubsection ? currentSubsection.references : undefined
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -151,11 +152,11 @@ export default function SectionPageClient({
               dangerouslySetInnerHTML={{ __html: currentSubsection.content }}
             />
 
-            {currentSubsection.references && currentSubsection.references.length > 0 && (
+            {references && references.length > 0 && (
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <h4 className="font-bold text-lg text-gray-900 mb-4">References</h4>
                 <ul className="space-y-2">
-                  {currentSubsection.references.map((ref, index) => (
+                  {references.map((ref, index) => (
                     <li key={index}>
                       <a
                         href={ref.url}
