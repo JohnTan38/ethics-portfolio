@@ -2,7 +2,7 @@ export const project1Data = {
   id: 'project-1',
   title: 'Ethical Issues and Legislative Breaches in Social Care',
   subtitle: 'Research on common ethical issues and legislative breaches in the social and intermediate long-term care sector',
-  pdfPath: '/pdfs/Ethical_issues_and_Legislative_breaches.pdf',
+  pdfPath: '/Ethical_issues_and_Legislative_breaches.pdf',
   sections: [
     {
       id: 'legislative-pdpa',
@@ -1024,6 +1024,305 @@ export const project1Data = {
                 <li>✓ Export data to identify "Hot Zones" and trends</li>
                 <li>✓ Seamless escalation to AIC Level 3 Incident Report if needed</li>
               </ul>
+            </div>
+          `
+        }
+      ]
+    },
+    {
+      id: 'motivation-coaching-counselling',
+      title: 'Motivation, Coaching & Counselling',
+      icon: 'Users',
+      pdfPath: '/Motivation_Coaching_Counselling.pdf',
+      theme: {
+        divider: 'from-teal-500 to-cyan-600',
+        sidebarActive: 'bg-teal-100 text-teal-700',
+        button: 'bg-teal-600 text-white hover:bg-teal-700',
+        ring: 'focus:ring-teal-500'
+      },
+      subsections: [
+        {
+          id: 'staff-motivation',
+          title: 'Staff Motivation',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Staff Motivation and Motivating Factors</h3>
+            <p class="text-gray-700 mb-6">
+              To keep productivity and performance high, leaders need a culture where employees feel engaged,
+              supported to grow, and motivated to contribute. Motivation is central to building a strong and
+              effective workplace.
+            </p>
+
+            <div class="bg-teal-50 border-l-4 border-teal-500 p-6 my-6">
+              <h4 class="font-semibold text-teal-900 mb-3">Common Motivating Factors</h4>
+              <ul class="list-disc list-inside text-teal-900 space-y-2">
+                <li>Financial incentives</li>
+                <li>Flexible time options</li>
+                <li>Recognition by co-workers or higher management</li>
+                <li>Rewards such as shopping vouchers</li>
+                <li>Positive reinforcement</li>
+                <li>Share in profits</li>
+              </ul>
+            </div>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-8 mb-4">Motivation Techniques (8)</h4>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="bg-white border-l-4 border-green-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-green-900 mb-2">1. Performance Appraisal</h5>
+                <p class="text-gray-700">Use targets and recognition to encourage continual improvement.</p>
+              </div>
+              <div class="bg-white border-l-4 border-blue-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-blue-900 mb-2">2. Staff Satisfaction Surveys</h5>
+                <p class="text-gray-700">Gather feedback and act quickly to show staff their input matters.</p>
+              </div>
+              <div class="bg-white border-l-4 border-purple-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-purple-900 mb-2">3. Staff Development Plans</h5>
+                <p class="text-gray-700">Encourage professional growth and skill building.</p>
+              </div>
+              <div class="bg-white border-l-4 border-orange-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-orange-900 mb-2">4. Intermittent Goals</h5>
+                <p class="text-gray-700">Set small, measurable milestones that create momentum.</p>
+              </div>
+              <div class="bg-white border-l-4 border-red-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-red-900 mb-2">5. Celebrate Milestones</h5>
+                <p class="text-gray-700">Reinforce progress with gratitude and tangible rewards.</p>
+              </div>
+              <div class="bg-white border-l-4 border-indigo-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-indigo-900 mb-2">6. Mentorship Programme</h5>
+                <p class="text-gray-700">Pair experienced staff with newer colleagues for daily guidance.</p>
+              </div>
+              <div class="bg-white border-l-4 border-pink-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-pink-900 mb-2">7. Encourage Mindfulness</h5>
+                <p class="text-gray-700">Short breaks help staff reset and refocus under stress.</p>
+              </div>
+              <div class="bg-white border-l-4 border-teal-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-teal-900 mb-2">8. Incentive Programmes</h5>
+                <p class="text-gray-700">Link rewards to effort, milestones, or skills training.</p>
+              </div>
+            </div>
+          `
+        },
+        {
+          id: 'negotiation-techniques',
+          title: 'Negotiation Techniques',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Negotiation Techniques</h3>
+            <p class="text-gray-700 mb-6">
+              Effective negotiation reduces conflict while protecting relationships. The focus is on the issue,
+              not the person, and on collaboration rather than winning.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-4 mb-6">
+              <div class="bg-white border-l-4 border-emerald-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-emerald-900 mb-2">Be Hard on the Problem, Soft on the Person</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Use calm, assertive language and avoid blame.</li>
+                  <li>Stay objective and focus on the issue.</li>
+                  <li>Do not condemn the person.</li>
+                </ul>
+              </div>
+              <div class="bg-white border-l-4 border-blue-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-blue-900 mb-2">Focus on Needs, Not Positions</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Listen to both sides without hierarchy.</li>
+                  <li>Shift from competing positions to shared goals.</li>
+                  <li>Seek collaboration over a win-lose outcome.</li>
+                </ul>
+              </div>
+              <div class="bg-white border-l-4 border-cyan-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-cyan-900 mb-2">Emphasize Common Ground</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Highlight what is already agreed.</li>
+                  <li>Celebrate the shared vision.</li>
+                  <li>Keep arguments away from clients or the public.</li>
+                </ul>
+              </div>
+              <div class="bg-white border-l-4 border-purple-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-purple-900 mb-2">Be Inventive About Options</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Brainstorm creative solutions.</li>
+                  <li>Support both sides in reaching a fair goal.</li>
+                  <li>Do not ignore obvious solutions.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 border-l-4 border-gray-400 p-6 mb-6">
+              <h5 class="font-semibold text-gray-900 mb-2">Example of an "I" Statement</h5>
+              <p class="text-gray-700">
+                "I sense there is frustration regarding the workflow, and I want to understand how we can fix it together."
+              </p>
+            </div>
+
+            <div class="bg-cyan-50 border-l-4 border-cyan-500 p-6">
+              <h5 class="font-semibold text-cyan-900 mb-2">Case Application: AAA and John</h5>
+              <ol class="list-decimal list-inside text-cyan-900 space-y-2">
+                <li>Address the logistics list change as the issue, not the person.</li>
+                <li>Refocus on the shared goal: a cost-effective and vibrant roadshow.</li>
+                <li>Agree on a protocol where AAA proposes savings and John approves before vendors are notified.</li>
+              </ol>
+            </div>
+          `
+        },
+        {
+          id: 'counselling',
+          title: 'Counselling & Coaching',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Counselling and Coaching</h3>
+            <p class="text-gray-700 mb-6">
+              Coaching is an ongoing developmental process focused on skill growth. Counselling is a one-on-one
+              activity used when work-related issues affect performance.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-4 mb-8">
+              <div class="bg-blue-50 p-6 rounded-lg border-t-4 border-blue-500">
+                <h4 class="font-bold text-blue-900 mb-2">Coaching</h4>
+                <p class="text-blue-800 text-sm">
+                  Ongoing development to build skills and improve performance in a supportive environment.
+                </p>
+              </div>
+              <div class="bg-purple-50 p-6 rounded-lg border-t-4 border-purple-500">
+                <h4 class="font-bold text-purple-900 mb-2">Counselling</h4>
+                <p class="text-purple-800 text-sm">
+                  One-on-one support when personal or professional issues affect work outcomes.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white border-2 border-gray-200 p-6 rounded-lg mb-6">
+              <h4 class="font-semibold text-gray-900 mb-3">Leader's Role in Counselling</h4>
+              <p class="text-gray-700">
+                A leader acts as a counsellor by listening, helping staff reframe issues, and guiding them toward
+                constructive solutions that align with team goals.
+              </p>
+            </div>
+
+            <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-6">
+              <h4 class="font-semibold text-teal-900 mb-3">Counselling Plan for AAA</h4>
+              <ul class="list-disc list-inside text-teal-900 space-y-2">
+                <li>Acknowledge intentions behind cost-saving actions.</li>
+                <li>Discuss the impact of emotional flare-ups on clients and team morale.</li>
+                <li>Agree on mindfulness breaks and mentorship support to manage stress.</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-4">
+              <div class="bg-white border-l-4 border-orange-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-orange-900 mb-2">Identified Shortcomings</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Interpersonal communication and collaboration.</li>
+                  <li>Emotional regulation under pressure.</li>
+                </ul>
+              </div>
+              <div class="bg-white border-l-4 border-green-500 p-5 rounded-lg shadow-sm">
+                <h5 class="font-bold text-green-900 mb-2">Agreed Actions</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Active participation in team meetings.</li>
+                  <li>Clear coordination before logistical changes.</li>
+                </ul>
+              </div>
+            </div>
+          `
+        },
+        {
+          id: 'conflict-resolution-mediation',
+          title: 'Conflict Resolution & Mediation',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Conflict Resolution and Mediation</h3>
+            <p class="text-gray-700 mb-6">
+              Constructive conflict often requires mediation to move from disagreement to agreement. Mediation is a
+              non-adversarial process where a neutral third party helps people resolve issues and create shared solutions.
+            </p>
+
+            <div class="bg-green-50 border-l-4 border-green-500 p-6 mb-6">
+              <h4 class="font-semibold text-green-900 mb-3">Mediation Principles</h4>
+              <ul class="list-disc list-inside text-green-900 space-y-2">
+                <li>Neutral third-party facilitates communication.</li>
+                <li>Focus on real issues and shared interests.</li>
+                <li>Generate options that meet the needs of all parties.</li>
+                <li>Outcome is accepted and owned by the parties themselves.</li>
+              </ul>
+            </div>
+
+            <div class="bg-white border-2 border-gray-200 p-6 rounded-lg mb-6">
+              <h4 class="font-semibold text-gray-900 mb-3">Mediation vs Arbitration</h4>
+              <p class="text-gray-700">
+                Arbitration results in a decision made by an intermediary. Mediation helps parties develop their own
+                solution with the mediator acting as a process facilitator.
+              </p>
+            </div>
+
+            <div class="bg-cyan-50 border-l-4 border-cyan-500 p-6 mb-6">
+              <h4 class="font-semibold text-cyan-900 mb-3">Conflict Resolution Strategy (AAA and John)</h4>
+              <ol class="list-decimal list-inside text-cyan-900 space-y-2">
+                <li>Separate the person from the problem.</li>
+                <li>Identify shared goals: effective, cost-conscious logistics.</li>
+                <li>Create a protocol: AAA proposes savings, John approves before vendor contact.</li>
+              </ol>
+            </div>
+
+            <div class="bg-purple-50 border-l-4 border-purple-500 p-6">
+              <h4 class="font-semibold text-purple-900 mb-3">Process Framework</h4>
+              <ul class="list-disc list-inside text-purple-900 space-y-2">
+                <li>Opening and ground rules</li>
+                <li>Issue identification</li>
+                <li>Option generation</li>
+                <li>Agreement construction</li>
+                <li>Closing and confirmation</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'role-play-scripts',
+          title: 'Role Play Scripts',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Role Play Scripts and Documentation</h3>
+            <p class="text-gray-700 mb-6">
+              The following scripts model counselling, mediation, and win-win negotiation, with a formal record of discussion.
+            </p>
+
+            <div class="bg-blue-50 border-2 border-blue-300 p-6 rounded-lg mb-6">
+              <h4 class="font-semibold text-blue-900 mb-3">1) One-on-One Counselling Meeting</h4>
+              <p class="text-blue-900 text-sm mb-3"><strong>Objective:</strong> Motivate AAA and address performance gaps with empathy.</p>
+              <div class="space-y-2 text-blue-900 text-sm">
+                <p><strong>Coach:</strong> "Your attention to logistics was a real asset. I want to help you manage stress when things get intense."</p>
+                <p><strong>AAA:</strong> "The reports take time, and I get frustrated when cost savings are overlooked."</p>
+                <p><strong>Coach:</strong> "We can pair you with a mentor and set smaller weekly goals so progress feels manageable."</p>
+              </div>
+            </div>
+
+            <div class="bg-green-50 border-2 border-green-300 p-6 rounded-lg mb-6">
+              <h4 class="font-semibold text-green-900 mb-3">2) Mediation Meeting Agenda</h4>
+              <p class="text-green-900 text-sm mb-3"><strong>Objective:</strong> Reach a non-adversarial agreement on project expenditures.</p>
+              <ol class="list-decimal list-inside text-green-900 space-y-2 text-sm">
+                <li>Opening and process overview</li>
+                <li>Issue identification (no interruptions)</li>
+                <li>Focus on real issues, not hierarchy</li>
+                <li>Generate options</li>
+                <li>Construct agreement</li>
+                <li>Close and confirm understanding</li>
+              </ol>
+            </div>
+
+            <div class="bg-purple-50 border-2 border-purple-300 p-6 rounded-lg mb-6">
+              <h4 class="font-semibold text-purple-900 mb-3">3) Win-Win Meeting Script</h4>
+              <p class="text-purple-900 text-sm mb-3"><strong>Objective:</strong> Fix the underlying problem with John through shared goals.</p>
+              <div class="space-y-2 text-purple-900 text-sm">
+                <p><strong>AAA:</strong> "I apologize for changing the equipment list without consulting you."</p>
+                <p><strong>John:</strong> "It disrupted the event vision."</p>
+                <p><strong>AAA:</strong> "I will identify cost savings, but you approve them before I contact vendors."</p>
+                <p><strong>John:</strong> "That feels fair and workable."</p>
+              </div>
+            </div>
+
+            <div class="bg-orange-50 border-2 border-orange-300 p-6 rounded-lg">
+              <h4 class="font-semibold text-orange-900 mb-3">4) Record of Discussion (Feb 5, 2026)</h4>
+              <p class="text-orange-900 text-sm mb-3"><strong>Participants:</strong> AAA (Care Assistant), Workplace Coach or Supervisor</p>
+              <div class="text-orange-900 text-sm space-y-2">
+                <p><strong>Key Improvement Areas:</strong> Client visit KPIs, interpersonal communication, report-writing skills.</p>
+                <p><strong>Agreed Actions:</strong> Training courses, consult coordinators before logistics changes, mindfulness during clinic chaperoning.</p>
+                <p><strong>Support:</strong> Daily mentorship and weekly "small win" check-ins.</p>
+              </div>
             </div>
           `
         }
