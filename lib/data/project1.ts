@@ -1325,6 +1325,27 @@ export const project1Data = {
               </div>
             </div>
           `
+        },
+        {
+          id: 'professional-growth-infographic',
+          title: 'Professional Growth Infographic',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">The Blueprint for Professional Growth</h3>
+            <p class="text-gray-700 mb-6">
+              A visual summary of performance coaching, collaboration, and conflict resolution practices.
+            </p>
+
+            <figure class="bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+              <img
+                src="/infographic.png"
+                alt="Infographic showing the blueprint for professional growth, covering performance coaching, mindfulness, and collaborative conflict resolution."
+                class="w-full h-auto rounded-xl"
+              />
+              <figcaption class="text-sm text-gray-500 mt-3 text-center">
+                Optimized for desktop, laptop, and mobile viewing.
+              </figcaption>
+            </figure>
+          `
         }
       ]
     }
