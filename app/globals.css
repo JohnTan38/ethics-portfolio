@@ -55,6 +55,9 @@
 
   .content-section table {
     @apply min-w-full bg-white border border-gray-300 my-6;
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
   }
 
   .content-section thead {

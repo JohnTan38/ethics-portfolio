@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { BookOpen, FileText, Scale, Shield, AlertTriangle, User, Users, Download, ArrowRight } from 'lucide-react'
+import { BookOpen, FileText, Scale, Shield, AlertTriangle, User, Users, ArrowRight } from 'lucide-react'
+import PdfDownloadSelector from './components/PdfDownloadSelector'
 
 export default function Home() {
   const ethicsSections = [
@@ -50,6 +51,16 @@ export default function Home() {
     }
   ]
 
+  const volunteerSections = [
+    {
+      id: 'volunteer-management',
+      title: 'Volunteer Management',
+      icon: FileText,
+      description: 'Volunteer frameworks, leadership development, budgeting, orientation, and risk mitigation',
+      color: 'from-amber-500 to-orange-600'
+    }
+  ]
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Header */}
@@ -60,24 +71,7 @@ export default function Home() {
               <h1 className="text-3xl font-bold text-gray-900">Social Service Portfolio</h1>
               <p className="text-gray-600 mt-1">Diploma in Social Service - Singapore</p>
             </div>
-            <div className="flex items-center gap-3">
-              <a
-                href="/Ethical_issues_and_Legislative_breaches.pdf"
-                download
-                className="flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                <Download className="w-5 h-5" />
-                Ethics PDF
-              </a>
-              <a
-                href="/Motivation_Coaching_Counselling.pdf"
-                download
-                className="flex items-center gap-2 bg-teal-600 text-white px-5 py-3 rounded-lg hover:bg-teal-700 transition-colors"
-              >
-                <Download className="w-5 h-5" />
-                People Mgmt PDF
-              </a>
-            </div>
+            <PdfDownloadSelector />
           </div>
         </div>
       </header>
@@ -93,7 +87,7 @@ export default function Home() {
             Ethics & People Management Portfolio
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Currently organized into two main parts: Ethics & Legislation, and People Management.
+            Now organized into three parts: Ethics & Legislation, People Management, and Volunteer Management.
             More parts and content will be added in future updates.
           </p>
         </div>
@@ -176,6 +170,44 @@ export default function Home() {
             })}
           </div>
         </div>
+
+        <div className="mt-16">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-700 px-4 py-2 rounded-full text-sm font-medium">
+              <FileText className="w-4 h-4" />
+              Part 3: Volunteer Management
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {volunteerSections.map((section) => {
+              const Icon = section.icon
+              return (
+                <Link
+                  key={section.id}
+                  href={`/project/1/${section.id}`}
+                  className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
+                >
+                  <div className={`h-2 bg-gradient-to-r ${section.color}`} />
+                  <div className="p-8">
+                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-r ${section.color} mb-6`}>
+                      <Icon className="w-8 h-8 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors">
+                      {section.title}
+                    </h3>
+                    <p className="text-gray-600 mb-6 leading-relaxed">
+                      {section.description}
+                    </p>
+                    <div className="flex items-center text-amber-600 font-semibold group-hover:gap-3 transition-all">
+                      Explore Section
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
       </section>
 
       {/* Quick Access Section */}
@@ -183,15 +215,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-blue-400 mb-2">6</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">7</div>
               <div className="text-gray-300">Major Sections</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-purple-400 mb-2">2</div>
+              <div className="text-4xl font-bold text-purple-400 mb-2">3</div>
               <div className="text-gray-300">Main Parts</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-green-400 mb-2">25+</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">30+</div>
               <div className="text-gray-300">Subsections</div>
             </div>
           </div>
