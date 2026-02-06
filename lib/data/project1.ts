@@ -1348,6 +1348,572 @@ export const project1Data = {
           `
         }
       ]
+    },
+    {
+      id: 'volunteer-management',
+      title: 'Volunteer Management',
+      icon: 'FileText',
+      pdfPath: '/Volunteer_Management.pdf',
+      theme: {
+        divider: 'from-amber-500 to-orange-600',
+        sidebarActive: 'bg-amber-100 text-amber-700',
+        button: 'bg-amber-600 text-white hover:bg-amber-700',
+        ring: 'focus:ring-amber-500'
+      },
+      subsections: [
+        {
+          id: 'volunteer-management-framework',
+          title: 'Volunteer Management Framework',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Volunteer Management Framework</h3>
+            <p class="text-gray-700 mb-6">
+              A strong volunteer program starts with clear roles, accurate job descriptions, and a structured
+              recruitment and selection process that aligns volunteer attributes with the organization’s mission.
+            </p>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-6">
+              <h4 class="font-semibold text-amber-900 mb-3">Foundation Steps</h4>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Conduct a Volunteer Recruitment Needs Analysis.</li>
+                <li>Define roles, responsibilities, and boundaries (do’s and don’ts).</li>
+                <li>Create accurate job descriptions and training expectations.</li>
+                <li>Map the number of volunteers needed per role or team.</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-3">Recruitment Focus</h5>
+                <p class="text-gray-700 mb-3">
+                  Identify the skills, knowledge, and personal attributes required for each volunteer role.
+                  Align recruitment with the organization’s mission so volunteers can relate to service users.
+                </p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Use referrals, community partners, and past volunteers.</li>
+                  <li>Clarify volunteer motivations and expectations.</li>
+                  <li>Share realistic time requirements and task scope.</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-3">Screening and Selection</h5>
+                <p class="text-gray-700 mb-3">
+                  Use structured application forms and informal interviews to match volunteers to roles.
+                </p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Shortlist applicants by agreed criteria.</li>
+                  <li>Conduct interviews with a checklist and take notes.</li>
+                  <li>Notify applicants and follow consistent policies.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h5 class="font-semibold text-gray-900 mb-3">Deployment Policy Essentials</h5>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Volunteer agreements, task scope, and supervision rules.</li>
+                <li>Orientation program details and staff introduction.</li>
+                <li>Access to information, systems, and safety procedures.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'volunteer-leadership-framework',
+          title: 'Volunteer Leadership Framework',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Volunteer Leadership Framework</h3>
+            <p class="text-gray-700 mb-6">
+              The framework centers on a two-way, trusting relationship between the team leader and members,
+              focused on achieving organizational goals while developing each volunteer’s potential.
+            </p>
+
+            <div class="bg-orange-50 border-l-4 border-orange-500 p-6 mb-6">
+              <h4 class="font-semibold text-orange-900 mb-3">Six Leadership Pillars</h4>
+              <ul class="list-disc list-inside text-orange-900 space-y-2">
+                <li><strong>Lead Strategically:</strong> vision, goals, analytical problem-solving.</li>
+                <li><strong>Lead People:</strong> negotiation, delegation, supervision, conflict resolution.</li>
+                <li><strong>Lead Change:</strong> creative thinking, innovation, influence.</li>
+                <li><strong>Lead Projects:</strong> planning, service quality, delivery.</li>
+                <li><strong>Skilled Communicator:</strong> feedback, assertiveness, listening.</li>
+                <li><strong>Manage Self:</strong> emotional intelligence, time and stress management.</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Effectiveness Factors</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Organization culture</li>
+                  <li>Designed leadership roles</li>
+                  <li>Organization design and structure</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Leadership Pathway</h5>
+                <ol class="list-decimal list-inside text-gray-700 space-y-1">
+                  <li>Introduce leadership opportunities for new volunteers.</li>
+                  <li>Identify potential leaders through observation.</li>
+                  <li>Select, train, and appraise emerging leaders.</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="bg-amber-50 p-6 rounded-lg">
+              <h5 class="font-semibold text-amber-900 mb-2">Best Practices</h5>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Recognize contributions and celebrate wins.</li>
+                <li>Clarify values and set the example.</li>
+                <li>Build team-based leadership and shared ownership.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'course-curriculum',
+          title: 'Course Curriculum',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">WSH Safety & Health Practices in Workplaces</h3>
+            <p class="text-gray-700 mb-6">
+              This curriculum follows the WSQ (Workforce Skills Qualifications) framework under the Progressive
+              Wage Model (PWM) for the cleaning sector, aligned with MOM and SkillsFuture Singapore guidance.
+            </p>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-6">
+              <h4 class="font-semibold text-amber-900 mb-3">Modules Overview</h4>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li><strong>Module 1:</strong> Safe Work Practices and Risk Control</li>
+                <li><strong>Module 2:</strong> Potential Hazards and Unsafe Work Practices</li>
+                <li><strong>Module 3:</strong> Workplace Emergency Response</li>
+                <li><strong>Module 4:</strong> Practical Application Components</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Training Duration</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Full program: 8 hours (typically 1 full day).</li>
+                  <li>Assessment: 1 hour (written + practical/oral).</li>
+                  <li>Total duration: 9 hours including assessment.</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Mode of Training</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Hybrid / blended learning with in-person facilitation.</li>
+                  <li>Hands-on demonstrations and mock hazard scenarios.</li>
+                  <li>100% attendance required for completion.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-6">
+              <h5 class="font-semibold text-gray-900 mb-3">Learning Outcomes</h5>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Understand WSH importance and organizational policies.</li>
+                <li>Identify common risks, hazards, and unsafe practices.</li>
+                <li>Apply risk control measures and emergency response.</li>
+                <li>Report unsafe conditions using formal procedures.</li>
+              </ul>
+            </div>
+
+            <div class="bg-orange-50 border-l-4 border-orange-500 p-6">
+              <h5 class="font-semibold text-orange-900 mb-2">Assessment and Fees (Estimated)</h5>
+              <ul class="list-disc list-inside text-orange-900 space-y-1">
+                <li>Assessment: practical + oral, 100% required for certification.</li>
+                <li>Estimated fees: S$200 before GST (S$218 with GST).</li>
+                <li>Subsidies available for Singaporeans/PRs and SME-sponsored training.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'budgeting',
+          title: 'Budgeting',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Budgeting for Volunteer Programs</h3>
+            <p class="text-gray-700 mb-6">
+              Budgeting ensures resources are aligned with volunteer program goals and supports retention,
+              training, and quality service delivery.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Core Cost Categories</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Direct costs (project-specific expenses).</li>
+                  <li>Capital expenditures (equipment, laptops).</li>
+                  <li>Indirect or hidden costs (program operations).</li>
+                  <li>In-kind contributions (donated goods/services).</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 p-6 rounded-lg">
+                <h5 class="font-semibold text-gray-900 mb-2">Volunteer-Specific Costs</h5>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Recruitment and orientation.</li>
+                  <li>Training and recognition programs.</li>
+                  <li>Marketing and communication materials.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-6">
+              <h5 class="font-semibold text-amber-900 mb-2">Budgeting Principles</h5>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Training can serve as recognition and improve retention.</li>
+                <li>Allow broad-interest training (CPR, public speaking, team building).</li>
+                <li>Replacing volunteers is costly; modest budgets support loyalty.</li>
+              </ul>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h5 class="font-semibold text-gray-900 mb-2">Rules of Thumb and Examples</h5>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Allocate 1% to 5% of total staff salaries for training.</li>
+                <li>Use needs-based budgeting when volunteer needs are specific.</li>
+                <li>Sample training budget: S$5,260 for 40 volunteers.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'orientation',
+          title: 'Orientation',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Orientation and Training Programmes</h3>
+            <p class="text-gray-700 mb-6">
+              Orientation equips new volunteers with the knowledge and confidence to perform their roles safely
+              and effectively, while aligning them with organizational policies and values.
+            </p>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-6">
+              <h5 class="font-semibold text-amber-900 mb-2">Pre-Orientation Essentials</h5>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Provide volunteerism policies and expected conduct.</li>
+                <li>Complete orientation within one month of appointment.</li>
+                <li>Assign a supervisor and share support channels.</li>
+                <li>Explain insurance coverage and grievance procedures.</li>
+              </ul>
+            </div>
+
+            <div class="bg-white border border-gray-200 p-6 rounded-lg mb-6">
+              <h5 class="font-semibold text-gray-900 mb-3">Recommended Orientation Topics</h5>
+              <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Mission, vision, and strategic goals.</li>
+                <li>Volunteer roles, rights, and responsibilities.</li>
+                <li>Code of conduct, PDPA, privacy, and WSH policies.</li>
+                <li>Training, performance support, and feedback channels.</li>
+              </ul>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-6">
+              <h5 class="font-semibold text-gray-900 mb-3">Sample Orientation Flow</h5>
+              <ol class="list-decimal list-inside text-gray-700 space-y-1">
+                <li>Welcome, mission, and organization overview.</li>
+                <li>Role briefings, do’s and don’ts, and scope of work.</li>
+                <li>WSH briefing, training plan, and support resources.</li>
+                <li>Feedback and networking wrap-up.</li>
+              </ol>
+            </div>
+
+            <div class="bg-orange-50 border-l-4 border-orange-500 p-6">
+              <h5 class="font-semibold text-orange-900 mb-2">Common Pitfalls to Avoid</h5>
+              <ul class="list-disc list-inside text-orange-900 space-y-1">
+                <li>Providing too much information too soon.</li>
+                <li>Pitching content at the wrong level.</li>
+                <li>Creating unrealistic expectations for volunteers.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'risk-mitigation',
+          title: 'Risk Mitigation',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Risk Mitigation for Volunteer Programs</h3>
+            <p class="text-gray-700 mb-6">
+              Risk management protects organizational reputation, safety, and program continuity by identifying
+              and addressing uncertainty early.
+            </p>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-6">
+              <h5 class="font-semibold text-amber-900 mb-2">Risk Areas</h5>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Long-term strategy (3 to 5+ year horizon).</li>
+                <li>Change management (mergers, restructuring).</li>
+                <li>Day-to-day operations.</li>
+                <li>Financial health and resourcing.</li>
+              </ul>
+            </div>
+
+            <div class="bg-white border border-gray-200 p-6 rounded-lg mb-6">
+              <h5 class="font-semibold text-gray-900 mb-2">ISO 31000 Process</h5>
+              <ol class="list-decimal list-inside text-gray-700 space-y-1">
+                <li>Set the context.</li>
+                <li>Identify risks and analyze impact/probability.</li>
+                <li>Assess, prioritize, and treat risks.</li>
+                <li>Communicate, consult, and review continuously.</li>
+              </ol>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div class="bg-orange-50 border-l-4 border-orange-500 p-6">
+                <h5 class="font-semibold text-orange-900 mb-2">Scenario 1: Vendor Failure</h5>
+                <ul class="list-disc list-inside text-orange-900 space-y-1">
+                  <li>Confirm vendor 48 hours and 3 hours before event.</li>
+                  <li>Maintain a backup vendor list for rapid response.</li>
+                  <li>Use deposit-based payments to ensure accountability.</li>
+                </ul>
+              </div>
+              <div class="bg-amber-50 border-l-4 border-amber-500 p-6">
+                <h5 class="font-semibold text-amber-900 mb-2">Scenario 2: Volunteer Shortage</h5>
+                <ul class="list-disc list-inside text-amber-900 space-y-1">
+                  <li>Recruit 20% more volunteers as a reserve pool.</li>
+                  <li>Cross-train volunteers for role flexibility.</li>
+                  <li>Early digital check-in to detect gaps.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h5 class="font-semibold text-gray-900 mb-2">Mitigation Strategies</h5>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li><strong>Avoidance:</strong> remove the risk entirely.</li>
+                <li><strong>Transference:</strong> use insurance or third parties.</li>
+                <li><strong>Mitigation:</strong> reduce impact or probability.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'tables',
+          title: 'Tables',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Tables</h3>
+            <p class="text-gray-700 mb-6">
+              The following tables consolidate key reference data from leadership, incident reporting, budgeting, and orientation planning.
+            </p>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-6 mb-3">Volunteer Leadership Framework</h4>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Pillar</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Key Competencies</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Lead Strategically</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Think strategically, create a vision, set goals and objectives, analyze problems</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Lead People</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Negotiation, delegation, supervision, conflict resolution</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Lead Change</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Think creatively, foster innovation, manage change, influence others</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Lead Projects</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Project management, project planning, quality services to clients</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Skilled Communicator</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Positive communication, feedback, assertiveness, listening</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Manage Self</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Emotional intelligence, self-awareness, time and stress management</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-8 mb-3">Sample Incident Report</h4>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Section</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Details Required</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Description of Event</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Sequence of events, machinery involved, immediate actions taken</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Witness Statement</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Name, contact, statement summary</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Analysis & Action</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Root cause, corrective action (fix now), preventive action (prevent recurrence)</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">What to Bring</td>
+                    <td class="py-3 px-4 border-b text-gray-600">ID, practical clothing, closed-toe shoes, writing materials, Singpass login</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-8 mb-3">Annual Training Budget</h4>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Item</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Cost</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Remarks</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">WSQ WSH Workplace Safety & Health</td>
+                    <td class="py-3 px-4 border-b text-gray-600">$4,360</td>
+                    <td class="py-3 px-4 border-b text-gray-600">All volunteers attend training (9% GST)</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Rewards for training completion</td>
+                    <td class="py-3 px-4 border-b text-gray-600">$400</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Shopping or meal vouchers (40 pax)</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">In-house familiarization training</td>
+                    <td class="py-3 px-4 border-b text-gray-600">$500</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Cleaning equipment familiarization</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-semibold">Total Budget</td>
+                    <td class="py-3 px-4 border-b text-gray-700 font-semibold">$5,260</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Projected for next financial year</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-8 mb-3">Suggested Orientation Program</h4>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Item</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Person-in-Charge</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Ice breaker</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Center Manager (CM)</td>
+                    <td class="py-3 px-4 border-b text-gray-600">10 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Mission, Vision, Goals</td>
+                    <td class="py-3 px-4 border-b text-gray-600">CM</td>
+                    <td class="py-3 px-4 border-b text-gray-600">10 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Organization chart</td>
+                    <td class="py-3 px-4 border-b text-gray-600">CM</td>
+                    <td class="py-3 px-4 border-b text-gray-600">5 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Roles, responsibilities, scope of work</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Senior Volunteer (SV)</td>
+                    <td class="py-3 px-4 border-b text-gray-600">60 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">WSH Act and grievance channels</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Volunteer Manager (VM)</td>
+                    <td class="py-3 px-4 border-b text-gray-600">15 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Training: apply theory to practice</td>
+                    <td class="py-3 px-4 border-b text-gray-600">VM</td>
+                    <td class="py-3 px-4 border-b text-gray-600">15 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Support available to volunteers</td>
+                    <td class="py-3 px-4 border-b text-gray-600">VM</td>
+                    <td class="py-3 px-4 border-b text-gray-600">10 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Feedback</td>
+                    <td class="py-3 px-4 border-b text-gray-600">VM</td>
+                    <td class="py-3 px-4 border-b text-gray-600">5 minutes</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Networking; food & beverage</td>
+                    <td class="py-3 px-4 border-b text-gray-600">All</td>
+                    <td class="py-3 px-4 border-b text-gray-600">To end of orientation</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h4 class="text-xl font-semibold text-gray-800 mt-8 mb-3">Orientation Checklist</h4>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Task</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Completed</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Welcome and Introduction</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Tour of Premises</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Introduction to Team</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Review of Job Description</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Health and Safety Briefing</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Confidentiality / PDPA Briefing</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">System / Equipment Access</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-600">Uniform / ID Badge Issued</td>
+                    <td class="py-3 px-4 border-b text-gray-600">□</td>
+                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          `
+        }
+      ]
     }
   ]
 };
