@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { Download, Search, Menu, X, ChevronRight, Home, ArrowLeft } from 'lucide-react'
 import project1Data from '@/lib/data/project1'
@@ -39,6 +39,28 @@ export default function SectionPageClient({
   const pdfPath = section.pdfPath ?? project1Data.pdfPath ?? '/Ethical_issues_and_Legislative_breaches.pdf'
   const currentSubsection = section.subsections[activeSubsection]
   const references = 'references' in currentSubsection ? currentSubsection.references : undefined
+  const normalizedQuery = searchQuery.trim().toLowerCase()
+
+  const searchResults = useMemo(() => {
+    if (!normalizedQuery) {
+      return section.subsections.map((subsection, index) => ({
+        subsection,
+        index
+      }))
+    }
+
+    return section.subsections
+      .map((subsection, index) => ({
+        subsection,
+        index,
+        haystack: `${subsection.title} ${subsection.content}`
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .toLowerCase()
+      }))
+      .filter((item) => item.haystack.includes(normalizedQuery))
+      .map(({ subsection, index }) => ({ subsection, index }))
+  }, [normalizedQuery, section.subsections])
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -72,6 +94,14 @@ export default function SectionPageClient({
                   className={`pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 ${theme.ring} focus:border-transparent`}
                 />
               </div>
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="hidden md:inline-flex text-sm text-gray-500 hover:text-gray-700"
+                >
+                  Clear
+                </button>
+              )}
               <a
                 href={pdfPath}
                 download
@@ -97,8 +127,34 @@ export default function SectionPageClient({
             lg:z-0
           `}>
             <h3 className="font-bold text-lg mb-4 text-gray-900">{section.title}</h3>
+            <div className="mb-4 lg:hidden">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="Search content..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  suppressHydrationWarning
+                  className={`w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 ${theme.ring} focus:border-transparent`}
+                />
+              </div>
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="mt-2 text-sm text-gray-500 hover:text-gray-700"
+                >
+                  Clear search
+                </button>
+              )}
+            </div>
+            {normalizedQuery && (
+              <div className="text-xs text-gray-500 mb-3">
+                Showing {searchResults.length} of {section.subsections.length} subsections
+              </div>
+            )}
             <nav className="space-y-2">
-              {section.subsections.map((subsection, index) => (
+              {searchResults.map(({ subsection, index }) => (
                 <button
                   key={subsection.id}
                   onClick={() => {
@@ -116,6 +172,11 @@ export default function SectionPageClient({
                   {subsection.title}
                 </button>
               ))}
+              {normalizedQuery && searchResults.length === 0 && (
+                <div className="text-sm text-gray-500 px-2 py-4">
+                  No matches. Try a different keyword.
+                </div>
+              )}
             </nav>
 
             <div className="mt-8 pt-8 border-t border-gray-200">
