@@ -84,7 +84,7 @@ export default function Home() {
             Portfolio Overview
           </div>
           <h2 className="text-5xl font-bold text-gray-900 mb-6">
-            Ethics & People Management Portfolio
+            Diploma in Social Service Projects Portfolio
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             Now organized into three parts: Ethics & Legislation, People Management, and Volunteer Management.
