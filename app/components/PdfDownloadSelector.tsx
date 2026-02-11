@@ -15,6 +15,10 @@ const pdfOptions = [
   {
     label: 'Volunteer Management',
     path: '/Volunteer_Management.pdf'
+  },
+  {
+    label: 'Stakeholder Management',
+    path: '/Effectiveness_Requires_Consistency.pdf'
   }
 ]
 
@@ -43,7 +47,7 @@ export default function PdfDownloadSelector() {
         className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition-colors"
       >
         <Download className="w-5 h-5" />
-        Download PDF
+        Submit
       </a>
     </div>
   )
