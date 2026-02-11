@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BookOpen, FileText, Scale, Shield, AlertTriangle, User, Users, ArrowRight } from 'lucide-react'
+import { BookOpen, FileText, Scale, Shield, AlertTriangle, User, Users, Handshake, ArrowRight } from 'lucide-react'
 import PdfDownloadSelector from './components/PdfDownloadSelector'
 
 export default function Home() {
@@ -61,6 +61,16 @@ export default function Home() {
     }
   ]
 
+  const stakeholderSections = [
+    {
+      id: 'stakeholder-management',
+      title: 'Stakeholder Management',
+      icon: Handshake,
+      description: 'Strategic consistency and effectiveness across stakeholder mapping, engagement, and reflection',
+      color: 'from-indigo-500 to-sky-600'
+    }
+  ]
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Header */}
@@ -87,7 +97,7 @@ export default function Home() {
             Diploma in Social Service Projects Portfolio
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Now organized into three parts: Ethics & Legislation, People Management, and Volunteer Management.
+            Now organized into four parts: Ethics & Legislation, People Management, Volunteer Management, and Stakeholder Management.
             More parts and content will be added in future updates.
           </p>
         </div>
@@ -208,6 +218,44 @@ export default function Home() {
             })}
           </div>
         </div>
+
+        <div className="mt-16">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium">
+              <Handshake className="w-4 h-4" />
+              Part 4: Stakeholder Management
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {stakeholderSections.map((section) => {
+              const Icon = section.icon
+              return (
+                <Link
+                  key={section.id}
+                  href={`/project/1/${section.id}`}
+                  className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
+                >
+                  <div className={`h-2 bg-gradient-to-r ${section.color}`} />
+                  <div className="p-8">
+                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-r ${section.color} mb-6`}>
+                      <Icon className="w-8 h-8 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
+                      {section.title}
+                    </h3>
+                    <p className="text-gray-600 mb-6 leading-relaxed">
+                      {section.description}
+                    </p>
+                    <div className="flex items-center text-indigo-600 font-semibold group-hover:gap-3 transition-all">
+                      Explore Section
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
       </section>
 
       {/* Quick Access Section */}
@@ -215,11 +263,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-blue-400 mb-2">7</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">8</div>
               <div className="text-gray-300">Major Sections</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-purple-400 mb-2">3</div>
+              <div className="text-4xl font-bold text-purple-400 mb-2">4</div>
               <div className="text-gray-300">Main Parts</div>
             </div>
             <div>
