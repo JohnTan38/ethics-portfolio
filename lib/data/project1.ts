@@ -1914,6 +1914,72 @@ export const project1Data = {
           `
         }
       ]
+    },
+    {
+      id: 'stakeholder-management',
+      title: 'Stakeholder Management',
+      icon: 'Users',
+      theme: {
+        divider: 'from-indigo-500 to-sky-600',
+        sidebarActive: 'bg-indigo-100 text-indigo-700',
+        button: 'bg-indigo-600 text-white hover:bg-indigo-700',
+        ring: 'focus:ring-indigo-500'
+      },
+      subsections: [
+        {
+          id: 'stakeholder-management-introduction',
+          title: 'Stakeholder Management - Strategic Consistency and Effectiveness',
+          content: `
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Stakeholder Management - Strategic Consistency and Effectiveness</h3>
+            <p class="text-gray-700 mb-6">
+              This introduction summarizes the external learning resource and highlights how strategic consistency
+              strengthens stakeholder alignment, communication quality, and nonprofit effectiveness.
+            </p>
+
+            <div class="bg-indigo-50 border-l-4 border-indigo-500 p-6 mb-6">
+              <h4 class="font-semibold text-indigo-900 mb-3">Overview of stakeholder-management-khaki.vercel.app</h4>
+              <ul class="list-disc list-inside text-indigo-900 space-y-2">
+                <li>The site presents a multi-page M5 learning summary focused on stakeholder management in nonprofit settings.</li>
+                <li>Core theme: strategic consistency helps bridge diverse stakeholder expectations into negotiated, effective outcomes.</li>
+                <li>Research summary: interviews and checklist methods across 3 NPOs found a positive link between stakeholder management and perceived effectiveness.</li>
+                <li>Stakeholder map: external groups include funders/donors, volunteers, clients, and government officers, alongside internal senior leadership.</li>
+                <li>Engagement section emphasizes measurable metrics and communication planning to monitor relationship-building outcomes.</li>
+                <li>Theory and reflection connect practical networking with stakeholder theory (including Freeman and Friedman perspectives).</li>
+                <li>Resources include downloadable PDF reports and a thematic bridge infographic.</li>
+              </ul>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-xl p-6 mb-6">
+              <h4 class="text-lg font-semibold text-gray-900 mb-2">Open the Full Stakeholder Management Resource</h4>
+              <p class="text-gray-700 mb-4">
+                Use the button below to open the full external experience in a new tab.
+              </p>
+              <form action="https://stakeholder-management-khaki.vercel.app/" method="get" target="_blank" rel="noopener noreferrer">
+                <button
+                  type="submit"
+                  class="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition-colors"
+                >
+                  Stakeholder Management
+                </button>
+              </form>
+            </div>
+
+            <div class="bg-sky-50 border-l-4 border-sky-500 p-6">
+              <h4 class="font-semibold text-sky-900 mb-2">Application to this Portfolio</h4>
+              <p class="text-sky-900">
+                This part extends the portfolio by connecting ethics, people management, and volunteer practice
+                to a consistent stakeholder strategy supported by evidence and reflective learning.
+              </p>
+            </div>
+          `,
+          references: [
+            {
+              title: 'Stakeholder Management - Strategic Consistency and Effectiveness',
+              url: 'https://stakeholder-management-khaki.vercel.app/'
+            }
+          ]
+        }
+      ]
     }
   ]
 };
