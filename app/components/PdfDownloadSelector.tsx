@@ -19,6 +19,10 @@ const pdfOptions = [
   {
     label: 'Stakeholder Management',
     path: '/Effectiveness_Requires_Consistency.pdf'
+  },
+  {
+    label: 'Social Service Program Development',
+    path: '/Social Service Program Development.pdf'
   }
 ]
 
