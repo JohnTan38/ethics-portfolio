@@ -426,6 +426,10 @@ export const project1Data = {
           id: 'distributive-justice-concept',
           title: 'Concept of Distributive Justice',
           content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-purple-100 shadow-sm transition-transform duration-500 hover:scale-[1.01]">
+              <img src="/images/montmartre.jpg" alt="Montmartre city lights painting representing distributive justice and shared public life" class="h-72 w-full object-cover" />
+            </div>
+
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Distributive Justice in Healthcare</h3>
             
             <div class="bg-purple-50 border-l-4 border-purple-500 p-6 my-6">
@@ -1045,6 +1049,10 @@ export const project1Data = {
           id: 'staff-motivation',
           title: 'Staff Motivation',
           content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-teal-100 shadow-sm transition-transform duration-500 hover:scale-[1.01]">
+              <img src="/images/sunflowers.jpg" alt="Sunflower field artwork symbolizing growth, positivity, and staff motivation" class="h-72 w-full object-cover" />
+            </div>
+
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Staff Motivation and Motivating Factors</h3>
             <p class="text-gray-700 mb-6">
               To keep productivity and performance high, leaders need a culture where employees feel engaged,
@@ -1365,6 +1373,10 @@ export const project1Data = {
           id: 'volunteer-management-framework',
           title: 'Volunteer Management Framework',
           content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-amber-100 shadow-sm transition-transform duration-500 hover:scale-[1.01]">
+              <img src="/images/impression-sunrise.jpg" alt="Impression sunrise painting representing the start of structured volunteer management" class="h-72 w-full object-cover" />
+            </div>
+
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Volunteer Management Framework</h3>
             <p class="text-gray-700 mb-6">
               A strong volunteer program starts with clear roles, accurate job descriptions, and a structured
@@ -1930,6 +1942,10 @@ export const project1Data = {
           id: 'stakeholder-management-introduction',
           title: 'Stakeholder Management - Strategic Consistency and Effectiveness',
           content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-indigo-100 shadow-sm transition-transform duration-500 hover:scale-[1.01]">
+              <img src="/images/renoir.jpg" alt="Renoir riverside scene representing relationship-building in stakeholder management" class="h-72 w-full object-cover" />
+            </div>
+
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Stakeholder Management - Strategic Consistency and Effectiveness</h3>
             <p class="text-gray-700 mb-6">
               This introduction summarizes the external learning resource and highlights how strategic consistency
@@ -1978,6 +1994,531 @@ export const project1Data = {
               url: 'https://stakeholder-management-khaki.vercel.app/'
             }
           ]
+        }
+      ]
+    },
+    {
+      id: 'social-service-program-development',
+      title: 'Social Service Program Development',
+      icon: 'BookOpen',
+      pdfPath: '/Social Service Program Development.pdf',
+      theme: {
+        divider: 'from-emerald-500 via-teal-500 to-cyan-500',
+        sidebarActive: 'bg-emerald-100 text-emerald-800',
+        button: 'bg-emerald-600 text-white hover:bg-emerald-700',
+        ring: 'focus:ring-emerald-500'
+      },
+      subsections: [
+        {
+          id: 'community-development-framework',
+          title: 'Community Development Framework',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/flowers-2.png" alt="Impressionist garden landscape representing community development" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Community Development Framework</h3>
+            <p class="text-gray-700 mb-6">
+              The source deck frames programme development as community work before it becomes service design. It emphasizes understanding people,
+              context, assets, and shared aspirations so that interventions are built with the community rather than imposed on it.
+            </p>
+
+            <div class="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-xl mb-8">
+              <h4 class="font-semibold text-emerald-900 mb-3">Core Principles</h4>
+              <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                <li>Start with lived realities in the neighbourhood, not assumptions.</li>
+                <li>Balance service gaps with community strengths and informal support networks.</li>
+                <li>Build participation, ownership, and long-term sustainability into programme design.</li>
+                <li>Align local action with Singapore's broader community development approach.</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+              <div class="bg-white border border-emerald-100 rounded-2xl p-6 shadow-sm">
+                <h4 class="text-lg font-semibold text-gray-900 mb-3">Needs-Based</h4>
+                <p class="text-gray-700 text-sm">
+                  Focuses on urgent deficits, service gaps, and practical problems that need immediate attention.
+                </p>
+              </div>
+              <div class="bg-white border border-teal-100 rounded-2xl p-6 shadow-sm">
+                <h4 class="text-lg font-semibold text-gray-900 mb-3">Goal-Oriented</h4>
+                <p class="text-gray-700 text-sm">
+                  Works backward from desired outcomes, helping teams define measurable goals, stakeholder roles, and milestones.
+                </p>
+              </div>
+              <div class="bg-white border border-cyan-100 rounded-2xl p-6 shadow-sm">
+                <h4 class="text-lg font-semibold text-gray-900 mb-3">Asset-Based</h4>
+                <p class="text-gray-700 text-sm">
+                  Highlights gifts, relationships, facilities, and local knowledge already present in the community.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-2xl p-6">
+              <h4 class="font-semibold text-gray-900 mb-3">Singapore Strategic Community Development Approach</h4>
+              <p class="text-gray-700 mb-3">
+                The deck positions programme planning within a Many Helping Hands mindset: agencies, volunteers, leaders, and residents contribute
+                different forms of expertise around a clear purpose and a realistic model of change.
+              </p>
+              <p class="text-gray-700">
+                In practice, this means social service programmes should integrate participation, partnership, evidence, and continuous adaptation
+                from the earliest planning stage.
+              </p>
+            </div>
+          `
+        },
+        {
+          id: 'community-needs-assessment',
+          title: 'Community Needs Assessment',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/woods.png" alt="Forest pathway image representing discovery and needs assessment" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Conducting a Community Needs Assessment</h3>
+            <p class="text-gray-700 mb-6">
+              The PDF presents needs assessment as a structured inquiry into what matters most to residents, what resources already exist,
+              and which issues should be prioritized first.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div class="bg-emerald-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-emerald-900 mb-3">Types of Need</h4>
+                <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                  <li>Expressed needs voiced directly by residents and service users.</li>
+                  <li>Felt needs revealed through stories, frustrations, and lived experience.</li>
+                  <li>Normative needs identified against professional standards or benchmarks.</li>
+                  <li>Comparative needs observed across different communities or groups.</li>
+                </ul>
+              </div>
+              <div class="bg-cyan-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-cyan-900 mb-3">Who Should Be Involved</h4>
+                <ul class="list-disc list-inside text-cyan-900 space-y-2">
+                  <li>Community members directly affected by service gaps.</li>
+                  <li>Resident leaders, local agencies, and relevant professionals.</li>
+                  <li>Volunteers and stakeholders who help conduct and interpret the study.</li>
+                  <li>Key informants with specialized cultural or contextual knowledge.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="space-y-4 mb-8">
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 1: Profile the Community</h4>
+                <p class="text-gray-700">Map demographics, existing services, informal networks, and environmental conditions.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 2: Decide the Scope</h4>
+                <p class="text-gray-700">Clarify the target group, geography, time frame, and decision questions.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 3: Identify Assets</h4>
+                <p class="text-gray-700">Document facilities, leaders, skills, support systems, and underused resources.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 4: Collect and Interpret Data</h4>
+                <p class="text-gray-700">Use both numbers and narratives, then translate patterns into service gaps and recommendations.</p>
+              </div>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Data Type</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">What It Contributes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Quantitative</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Counts, rates, trends, and measurable service demand for prioritization.</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Qualitative</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Stories, perceptions, barriers, motivations, and context for programme design.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          `
+        },
+        {
+          id: 'survey-and-volunteer-interview',
+          title: 'Survey and Volunteer Interview Practice',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/shine-flowers-1.png" alt="Floral artwork representing empathy and resident engagement" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Community Survey and Volunteer Interview Practice</h3>
+            <p class="text-gray-700 mb-6">
+              The deck includes a neighbourhood survey and a volunteer interview checklist designed for respectful, effective conversations with residents,
+              especially seniors.
+            </p>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6 mb-8">
+              <h4 class="font-semibold text-amber-900 mb-3">Survey Priorities</h4>
+              <ul class="list-disc list-inside text-amber-900 space-y-2">
+                <li>Collect household background only when relevant and proportionate.</li>
+                <li>Ask about needs, current services, community strengths, and preferred channels for staying connected.</li>
+                <li>Explain consent clearly and make participation voluntary.</li>
+                <li>Design questions so seniors can respond comfortably without pressure or confusion.</li>
+              </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                <h4 class="font-semibold text-gray-900 mb-3">Preparation</h4>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                  <li>Understand the mission and explain it in two simple sentences.</li>
+                  <li>Bring survey forms, pens, ID, and the authorization letter.</li>
+                  <li>Assign roles clearly when interviewing in pairs.</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                <h4 class="font-semibold text-gray-900 mb-3">Approach</h4>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                  <li>Open warmly and respectfully.</li>
+                  <li>Introduce yourself, your organization, and the purpose clearly.</li>
+                  <li>Check language comfort and adapt where possible.</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                <h4 class="font-semibold text-gray-900 mb-3">During the Interview</h4>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                  <li>Use active listening rather than rushing through the form.</li>
+                  <li>Notice felt needs hidden within personal stories.</li>
+                  <li>Avoid leading questions and invite honest responses.</li>
+                  <li>Look for assets such as skills, leadership, and social capital.</li>
+                </ul>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                <h4 class="font-semibold text-gray-900 mb-3">Closing and Debrief</h4>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                  <li>Thank residents even if they do not complete the survey.</li>
+                  <li>Record immediate insights after each interaction.</li>
+                  <li>Capture observations about the environment and community mood.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl">
+              <h4 class="font-semibold text-red-900 mb-3">PDPA and Privacy Compliance</h4>
+              <ul class="list-disc list-inside text-red-900 space-y-2">
+                <li>Participation must remain voluntary and informed.</li>
+                <li>Residents should be told that names and contact details can be optional.</li>
+                <li>Forms must be stored securely and never left unattended in public areas.</li>
+                <li>Do not photograph residents or homes without explicit permission.</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 'best-practices-and-adaptation',
+          title: 'Best Practices and Adaptation',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/social-impact-Gemini.png" alt="Bright floral image representing innovation and adaptation" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Best Practices, Trends, and Adaptation</h3>
+            <p class="text-gray-700 mb-6">
+              The programme development deck distinguishes between adopting a model as-is and adapting it responsibly to local needs,
+              organizational capacity, and intervention-context fit.
+            </p>
+
+            <div class="overflow-x-auto mb-8">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Approach</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Meaning</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">When Useful</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Adoption</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Implementing a model with minimal change.</td>
+                    <td class="py-3 px-4 border-b text-gray-600">When the target context is highly similar and fidelity is essential.</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Adaptation</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Adjusting content, delivery, or support systems while preserving intent.</td>
+                    <td class="py-3 px-4 border-b text-gray-600">When local culture, capacity, language, or stakeholder realities differ.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div class="bg-emerald-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-emerald-900 mb-3">Why Adapt</h4>
+                <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                  <li>Improve intervention-context fit.</li>
+                  <li>Increase relevance for service users and partners.</li>
+                  <li>Reduce implementation friction.</li>
+                  <li>Strengthen sustainability at scale.</li>
+                </ul>
+              </div>
+              <div class="bg-cyan-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-cyan-900 mb-3">Guardrails</h4>
+                <ul class="list-disc list-inside text-cyan-900 space-y-2">
+                  <li>Preserve the core rationale for the intervention.</li>
+                  <li>Document what changes and why.</li>
+                  <li>Test the adjusted model before scaling widely.</li>
+                  <li>Use evaluation results to decide whether to continue, refine, or stop.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="space-y-4 mb-8">
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 1: Assess Fit</h4>
+                <p class="text-gray-700">Clarify the rationale for intervention and examine whether the proposed model fits the local setting.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 2: Plan Adaptations</h4>
+                <p class="text-gray-700">Decide what to modify in content, delivery, staffing, partnerships, or communication.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 3: Pilot and Evaluate</h4>
+                <p class="text-gray-700">Test the adapted programme, gather feedback, and compare outcomes against expectations.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Step 4: Implement and Maintain at Scale</h4>
+                <p class="text-gray-700">Roll out only after learning from the pilot and building the resources needed for quality and consistency.</p>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-2xl p-6">
+              <h4 class="font-semibold text-gray-900 mb-3">Piloting Decisions</h4>
+              <p class="text-gray-700">
+                After piloting, the team should decide whether to continue as planned, refine the model, redesign specific components,
+                or discontinue the intervention.
+              </p>
+            </div>
+          `
+        },
+        {
+          id: 'project-silver-link',
+          title: 'Project Silver Link Case Study',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/path-with-flowers.png" alt="Garden path image representing the Silver Link journey" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Project Silver Link</h3>
+            <p class="text-gray-700 mb-6">
+              Project Silver Link translates the framework into a case involving an estate with many older residents, social isolation,
+              and growing vulnerability to scams.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+              <div class="bg-emerald-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-emerald-900 mb-3">Key Findings</h4>
+                <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                  <li>Strong neighbourliness remained a major community strength.</li>
+                  <li>Residents faced scam vulnerability and low digital confidence.</li>
+                  <li>Language barriers and skepticism affected programme access.</li>
+                  <li>There were opportunities to connect with grants and digital initiatives.</li>
+                </ul>
+              </div>
+              <div class="bg-cyan-50 rounded-2xl p-6">
+                <h4 class="font-semibold text-cyan-900 mb-3">Data Collection Methods</h4>
+                <ul class="list-disc list-inside text-cyan-900 space-y-2">
+                  <li>Door-to-door surveys by student volunteers.</li>
+                  <li>Focus groups with community gatekeepers.</li>
+                  <li>Observation and listening sessions at common spaces.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-8">
+              <h4 class="font-semibold text-gray-900 mb-3">Recommended Programme Ideas</h4>
+              <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-gray-50 rounded-xl p-4">
+                  <h5 class="font-semibold text-gray-900 mb-2">Intergenerational Digital Workshops</h5>
+                  <p class="text-gray-700 text-sm">Students coach seniors one-to-one on practical digital skills and safe communication tools.</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-4">
+                  <h5 class="font-semibold text-gray-900 mb-2">Dialect Scam-Shield Talks</h5>
+                  <p class="text-gray-700 text-sm">Small-group sessions make scam awareness more accessible and culturally responsive.</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-4">
+                  <h5 class="font-semibold text-gray-900 mb-2">Void Deck Connectivity Hubs</h5>
+                  <p class="text-gray-700 text-sm">Informal help points provide visible, low-barrier digital support in familiar places.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-6">
+              <h4 class="font-semibold text-amber-900 mb-3">Case Study Conclusion</h4>
+              <p class="text-amber-900">
+                The case reinforces the asset-based community development model by activating trusted relationships, local leadership,
+                and everyday spaces that can support resilience and participation.
+              </p>
+            </div>
+          `
+        },
+        {
+          id: 'training-and-resource-allocation',
+          title: 'Training and Resource Allocation',
+          content: `
+            <div class="mb-8 overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+              <img src="/images/clear-water-forest.png" alt="Forest light image representing growth and capability building" class="h-72 w-full object-cover" />
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Training Needs Analysis and Resource Allocation</h3>
+            <p class="text-gray-700 mb-6">
+              The deck links programme success to the discipline of preparing people, tools, budgets, and systems in advance.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Manpower</h4>
+                <p class="text-gray-700 text-sm">Define required roles, training gaps, supervision needs, and deployment.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Materials</h4>
+                <p class="text-gray-700 text-sm">Prepare forms, outreach tools, learning resources, and operational supplies.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Machines</h4>
+                <p class="text-gray-700 text-sm">Assess technology, devices, digital access, and other infrastructure.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Money</h4>
+                <p class="text-gray-700 text-sm">Set a realistic budget for training, implementation, logistics, and evaluation.</p>
+              </div>
+            </div>
+
+            <div class="bg-emerald-50 rounded-2xl p-6 mb-8">
+              <h4 class="font-semibold text-emerald-900 mb-3">TNA Summary</h4>
+              <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                <li>Clarify the role expectations for staff, volunteers, and partners.</li>
+                <li>Map current skills against the intervention model.</li>
+                <li>Prioritize training topics that affect safety, service quality, and confidence.</li>
+                <li>Link training decisions to the 4M resource plan.</li>
+              </ul>
+            </div>
+
+            <div class="overflow-x-auto mb-8">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Planning Area</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">What to Confirm</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Capability</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Training content, trainers, readiness checks, and supervision arrangements.</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Operations</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Venue, materials, equipment, data handling, and contingency coverage.</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Budget</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Training cost, programme resources, incentives, and maintenance needs.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="bg-cyan-50 border-l-4 border-cyan-500 p-6">
+              <h4 class="font-semibold text-cyan-900 mb-3">Age Well SG Reference</h4>
+              <p class="text-cyan-900">
+                The Age Well SG slide reinforces a hub-based model of service access where a community touchpoint acts as a health-social connector.
+              </p>
+            </div>
+          `
+        },
+        {
+          id: 'stakeholder-collaboration-and-engagement',
+          title: 'Stakeholder Collaboration and Engagement',
+          content: `
+            <div class="grid md:grid-cols-3 gap-4 mb-8">
+              <div class="overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+                <img src="/images/path-with-flowers.png" alt="Garden path representing stakeholder pathways" class="h-56 w-full object-cover" />
+              </div>
+              <div class="overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+                <img src="/images/bridge.png" alt="Bridge image representing partnership" class="h-56 w-full object-cover" />
+              </div>
+              <div class="overflow-hidden rounded-3xl border border-emerald-100 shadow-sm">
+                <img src="/images/clear-water-forest.png" alt="Forest image representing long-term alignment" class="h-56 w-full object-cover" />
+              </div>
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Stakeholder Collaboration and Engagement</h3>
+            <p class="text-gray-700 mb-6">
+              The final cluster in the PDF highlights how programme development depends on stakeholder alignment.
+              Practitioners, agencies, beneficiaries, and sponsors influence resources, legitimacy, and implementation quality.
+            </p>
+
+            <div class="bg-emerald-50 rounded-2xl p-6 mb-8">
+              <h4 class="font-semibold text-emerald-900 mb-3">Stakeholders Crucial to Programme Development</h4>
+              <ul class="list-disc list-inside text-emerald-900 space-y-2">
+                <li>Practitioners and service teams who implement the work.</li>
+                <li>Referral agencies, partners, and sponsors who contribute reach or resources.</li>
+                <li>Beneficiaries and community leaders whose trust determines uptake.</li>
+                <li>Decision-makers who authorize scale, funding, and accountability mechanisms.</li>
+              </ul>
+            </div>
+
+            <div class="overflow-x-auto mb-8">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Mode</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Characteristics</th>
+                    <th class="py-3 px-4 text-left font-semibold text-gray-700 border-b">Risk to Manage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Collaboration</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Parties work together while largely controlling their own resources and workflows.</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Loose coordination can lead to unclear goals and inconsistent follow-through.</td>
+                  </tr>
+                  <tr class="hover:bg-gray-50">
+                    <td class="py-3 px-4 border-b text-gray-700 font-medium">Partnership</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Resources, structures, and accountabilities are more intentionally shared.</td>
+                    <td class="py-3 px-4 border-b text-gray-600">Human dynamics, self-interest, and role confusion require active leadership.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-4 mb-8">
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Shared Vision</h4>
+                <p class="text-gray-700 text-sm">Communicate a common purpose early so coordination is anchored in more than goodwill.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Defined Roles</h4>
+                <p class="text-gray-700 text-sm">Assign responsibilities, spokespersons, and decision rights to reduce ambiguity.</p>
+              </div>
+              <div class="bg-white border border-gray-200 rounded-2xl p-5">
+                <h4 class="font-semibold text-gray-900 mb-2">Quality Control</h4>
+                <p class="text-gray-700 text-sm">Monitor delivery, resolve issues early, and maintain commitment from start to finish.</p>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-2xl p-6">
+              <h4 class="font-semibold text-gray-900 mb-3">Key Insight and Closing Recommendation</h4>
+              <p class="text-gray-700 mb-3">
+                Multi-sector inclusion can translate community interest into tangible resources, but only when leadership actively manages communication,
+                expectations, and accountability.
+              </p>
+              <p class="text-gray-700">
+                Strong social service programmes need a shared vision, structured engagement, and an implementation process that keeps partners aligned over time.
+              </p>
+            </div>
+          `
         }
       ]
     }
